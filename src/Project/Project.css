@@ -1,0 +1,19 @@
+.project-section {
+  color: aliceblue;
+  background-color: rgb(17, 49, 79);
+  min-height: 80vh;
+}
+
+.project-section .card {
+  background-color:  rgb(17, 49, 79);
+  border: none;
+  margin-left: 5%;
+  margin-bottom: 30px;
+  height: 350px;
+  width: 300px;
+}
+
+.project-section img{
+  width: 285px;
+  height: 50%;
+}
