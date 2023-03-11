@@ -1,52 +1,132 @@
 import React from "react";
 import "./Skills.css";
 const Skills = () => {
-  let number=document.getElementById('skills-count');
-  let counter=0;
-  setInterval(()=>{
-    if(counter===65){
-      clearInterval();
-    }
-    else{
-      counter+=1;
-      number.innerHTML=counter+'%';
-    }
-  },30)
   return (
-    <div class="skills-section">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-md-12 text-center mt-5">
-            <h2>Skills</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipsicing elit.</p>
-          </div>
-          <div class="row">
-            <div className="col-lg-2"></div>
-            <div class="col-lg-3">
-              <div className="skill">
-                <div className="outer">
-                  <div className="inner">
-                    <div id="skills-count">65%</div>
-                  </div>
-                </div>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  version="1.1"
-                  width="160px"
-                  height="160px"
-                >
-                  <defs>
-                    <linearGradient id="GradientColor">
-                      <stop offset="0%" stop-color="#e91e63" />
-                      <stop offset="100%" stop-color="#673ab7" />
-                    </linearGradient>
-                  </defs>
-                  <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+    <div className="skills-section">
+      <div className="heading">Skills</div>
+      <div className="container">
+      <div className="row">
+          <div className="col-md-3 col-sm-12">
+            <div className="card">
+              <div
+                className="percent"
+                style={{ "--clr": "#fee800", "--num": 85 }}
+              >
+                <div className="dot"></div>
+                <svg>
+                  <circle cx="70" cy="70" r="70"></circle>
+                  <circle cx="70" cy="70" r="70"></circle>
                 </svg>
+                <div className="number">
+                  <h2>
+                    85<span>%</span>
+                  </h2>
+                  <p>Html</p>
+                </div>
               </div>
             </div>
           </div>
-          <div className="col-lg-2"></div>
+          <div className="col-md-3 col-sm-12">
+            <div className="card">
+              <div
+                className="percent"
+                style={{ "--clr": "#04f4c3", "--num": 85 }}
+              >
+                <div className="dot"></div>
+                <svg>
+                  <circle cx="70" cy="70" r="70"></circle>
+                  <circle cx="70" cy="70" r="70"></circle>
+                </svg>
+                <div className="number">
+                  <h2>
+                    75<span>%</span>
+                  </h2>
+                  <p>CSS</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-3 col-sm-12">
+            <div className="card">
+              <div
+                className="percent"
+                style={{ "--clr": "#06ccff", "--num": 85 }}
+              >
+                <div className="dot"></div>
+                <svg>
+                  <circle cx="70" cy="70" r="70"></circle>
+                  <circle cx="70" cy="70" r="70"></circle>
+                </svg>
+                <div className="number">
+                  <h2>
+                    85<span>%</span>
+                  </h2>
+                  <p>React</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div><div className="row">
+          <div className="col-md-3 col-sm-12">
+            <div className="card">
+              <div
+                className="percent"
+                style={{ "--clr": "Tomato", "--num": 85 }}
+              >
+                <div className="dot"></div>
+                <svg>
+                  <circle cx="70" cy="70" r="70"></circle>
+                  <circle cx="70" cy="70" r="70"></circle>
+                </svg>
+                <div className="number">
+                  <h2>
+                    85<span>%</span>
+                  </h2>
+                  <p>Html</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-3 col-sm-12">
+            <div className="card">
+              <div
+                className="percent"
+                style={{ "--clr": "#ff00be", "--num": 85 }}
+              >
+                <div className="dot"></div>
+                <svg>
+                  <circle cx="70" cy="70" r="70"></circle>
+                  <circle cx="70" cy="70" r="70"></circle>
+                </svg>
+                <div className="number">
+                  <h2>
+                    85<span>%</span>
+                  </h2>
+                  <p>Html</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-3 col-sm-12">
+            <div className="card">
+              <div
+                className="percent"
+                style={{ "--clr": "peru", "--num": 85 }}
+              >
+                <div className="dot"></div>
+                <svg>
+                  <circle cx="70" cy="70" r="70"></circle>
+                  <circle cx="70" cy="70" r="70"></circle>
+                </svg>
+                <div className="number">
+                  <h2>
+                    85<span>%</span>
+                  </h2>
+                  <p>Html</p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

@@ -3,13 +3,13 @@ import "./Navbar.css";
 
 const Navbar = () => {
   return (
-    <nav class="navbar navbar-expand-lg navbar-dark">
-      <div class="container">
-        <a class="navbar-brand" href="#">
+    <nav className="navbar navbar-expand-lg navbar-dark">
+      <div className="container">
+        <a className="navbar-brand" href="/">
           PortFolio
         </a>
         <button
-          class="navbar-toggler"
+          className="navbar-toggler"
           type="button"
           data-toggle="collapse"
           data-target="#navbarSupportedContent"
@@ -17,28 +17,28 @@ const Navbar = () => {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#Home">
+        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul className="navbar-nav ms-auto">
+            <li className="nav-item active">
+              <a className="nav-link" href="#Home">
                 Home
               </a>
             </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="#Skills">
+            <li className="nav-item active">
+              <a className="nav-link" href="#Skills">
                 Skills
               </a>
             </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="#Projects">
+            <li className="nav-item active">
+              <a className="nav-link" href="#Projects">
                 Projects
               </a>
             </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="#Contact">
+            <li className="nav-item active">
+              <a className="nav-link" href="#Contact">
                 Contact
               </a>
             </li>
