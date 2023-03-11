@@ -99,7 +99,7 @@ const Contact = () => {
 
               <li>
                 <i className="fas fa-envelope mt-4 fa-2x"></i>
-                <p>sachinsmr@gmail.com</p>
+                <p>sachinsmr56@gmail.com</p>
               </li>
               <li>
               <a href="https://www.linkedin.com/in/sachinsr56/">
