@@ -1,0 +1,33 @@
+.contact-section {
+  padding: 1%;
+  min-height: 80vh;
+  color: aliceblue;
+  /* font-family: 'Metal Mania', cursive; */
+  background-color: rgb(17, 49, 79);
+}
+
+.contact-section h2{
+    font-size: 50px;
+}
+
+/* .contact-section p{
+    font-weight: 500;
+    font-size: 15px;
+} */
+.contact-section input{
+    margin-bottom: 15px;
+    height: 50px;
+    font-family: 'Pacifico', cursive;
+}
+textarea{
+  margin-bottom: 20px;
+    font-family: 'Pacifico', cursive;
+}
+section {
+  margin-left: 20%;
+  width: 60%;
+}
+.contact-section a{
+  color: white;
+  text-decoration: none;
+}
