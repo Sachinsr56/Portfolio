@@ -1,11 +1,10 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
-import { faTwitter } from "@fortawesome/free-solid-svg-icons";
+import Footer from '../Footer/Footer'
 import "./Contact.css";
 
 const Contact = () => {
   return (
-    <div className="contact-section">
+    <div id="Contact" className="contact-section">
       <section className="mb-4">
         <h2 className="h1-responsive font-weight-bold text-center my-4">
           Contact us
@@ -84,6 +83,7 @@ const Contact = () => {
             <div className="text-center text-md-left">
               <a
                 className="btn btn-primary w-100"
+                href="/"
               >
                 Send
               </a>
@@ -117,6 +117,7 @@ const Contact = () => {
           </div>
         </div>
       </section>
+      <Footer />
     </div>
   );
 };

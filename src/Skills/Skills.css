@@ -1,9 +1,10 @@
 .skills-section{
+  text-align: center;
   background-color: rgb(9, 35, 60);
-  font-family: 'Kaushan Script', cursive;
   color: aliceblue;
 }
 .heading{
+  font-family: 'Kaushan Script', cursive;
   justify-content: center;
   text-align: center;
   font-size: xx-large;
@@ -121,7 +122,7 @@
   font-size: 2.5rem;
 }
 
-.skills-section .number p{
+.skills-section .number{
   font-weight: 500;
   font-size: 0.75rem;
   letter-spacing: 2px;
@@ -130,4 +131,14 @@
   color: white;
 }
 
+.data-class{
+  text-align: center;
+  font-size: 0.5rem;
+}
 
+.xyz{
+  font-family: 'IBM Plex Serif', serif;
+  word-spacing: 10px;
+  font-weight: 500;
+  margin-bottom: 40px;
+}

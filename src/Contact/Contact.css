@@ -1,5 +1,5 @@
 .contact-section {
-  padding: 1%;
+  padding-top: 20px;
   min-height: 80vh;
   color: aliceblue;
   /* font-family: 'Metal Mania', cursive; */
@@ -17,11 +17,9 @@
 .contact-section input{
     margin-bottom: 15px;
     height: 50px;
-    font-family: 'Pacifico', cursive;
 }
 textarea{
   margin-bottom: 20px;
-    font-family: 'Pacifico', cursive;
 }
 section {
   margin-left: 20%;

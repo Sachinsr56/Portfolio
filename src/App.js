@@ -7,13 +7,12 @@ import Navbar from "./Navbar/Navbar";
 import Footer from "./Footer/Footer";
 function App() {
   return (
-    <div className="App">
+  <div className="App">
     <Navbar />
     <Home />
     <Skills />
     <Project />
     <Contact />
-    <Footer />
     </div>
   );
 }
