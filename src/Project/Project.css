@@ -4,6 +4,9 @@
   min-height: 80vh;
   justify-content: center;
 }
+.project-section .row{
+  margin-bottom: 0;
+}
 
 .project-section .heading {
   font-size: 40px;
@@ -33,13 +36,18 @@
 
 .project-section .card {
   background-color: rgb(17, 49, 79);
+  opacity: 0.8;
   border: none;
   margin-left: 5%;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   height: 350px;
   width: 300px;
 }
+.project-section .card:hover{
+  opacity: 0.5;
+}
 .project-section img {
+  border-radius: 10px;
   width: 285px;
   height: 50%;
 }

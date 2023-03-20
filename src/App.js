@@ -4,7 +4,6 @@ import Skills from "./Skills/Skills";
 import Project from './Project/Project'
 import Contact from './Contact/Contact'
 import Navbar from "./Navbar/Navbar";
-import Footer from "./Footer/Footer";
 function App() {
   return (
   <div className="App">
