@@ -66,7 +66,7 @@ const Footer = () => {
           style={{ "background-color": "rgba(0, 0, 0, 0.2)", color: "black" }}
         >
           © 2023 Copyright:
-          <a className="text-black" href="https://mdbootstrap.com/">
+          <a className="text-black" href="">
             sachinsmr56@gmail.com
           </a>
         </div>

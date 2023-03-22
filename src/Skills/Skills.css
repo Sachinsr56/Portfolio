@@ -4,7 +4,6 @@
   color: aliceblue;
 }
 .heading{
-  font-family: 'Kaushan Script', cursive;
   justify-content: center;
   text-align: center;
   font-size: xx-large;
@@ -21,7 +20,7 @@
   gap: 40px;
 }
 .skills-section .container .card {
-  /* border: none; */
+  border-radius: 30px;
   position: relative;
   width: 220px;
   height: 220px;
@@ -115,11 +114,10 @@
 .skills-section .number h2{
   display: flex;
   justify-content: center;
-  font-family: 'Cedarville Cursive', cursive;
   margin-top: 20px;
   color:white;
   font-weight: 700;
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 .skills-section .number{
@@ -127,7 +125,6 @@
   font-size: 0.75rem;
   letter-spacing: 2px;
   text-transform: uppercase;
-  font-family: 'Kaushan Script', cursive;
   color: white;
 }
 
@@ -137,8 +134,7 @@
 }
 
 .xyz{
-  font-family: 'IBM Plex Serif', serif;
-  word-spacing: 10px;
+  word-spacing: 7px;
   font-weight: 500;
   margin-bottom: 40px;
 }

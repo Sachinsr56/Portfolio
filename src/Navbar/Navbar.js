@@ -1,4 +1,3 @@
-import React from "react";
 import "./Navbar.css";
 
 const Navbar = () => {
@@ -6,7 +5,7 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-lg navbar-dark">
       <div className="container">
         <a className="navbar-brand" href="#Home">
-          PortFolio
+        Portfolio
         </a>
         <button
           className="navbar-toggler"

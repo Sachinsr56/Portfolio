@@ -4,15 +4,15 @@
   background-color: rgb(6, 28, 50);
   font-size: large;
   font-weight: bold;
-  padding: 20px;
+  padding: 15px;
   opacity: 0.9;
   z-index: 1;
   transition-timing-function: ease-in;
   transition: all 0.5s;
 }
 .navbar-brand {
-  font-size: xx-large;
-  font-family: "Cedarville Cursive", cursive;
+  letter-spacing: 3px;
+  font-size: 40px;
 }
 
 .navbar a{
