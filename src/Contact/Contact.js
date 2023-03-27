@@ -83,6 +83,7 @@ const Contact = () => {
             <div className="text-center text-md-left">
               <a
                 className="btn btn-primary w-100"
+                style={{"backgroundColor":"rgb(32, 49, 91)","border":"none"}}
                 href="/"
               >
                 Send
