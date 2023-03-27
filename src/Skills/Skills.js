@@ -7,7 +7,7 @@ const Skills = () => {
       <p className="xyz">I love to work on real world application projects where I use my Web Development,<br /> Data Cleaning and structured coding skills.</p>
       <div className="container">
         <div className="row">
-          <div className="col-md-3 col-sm-12">
+          <div className="col-md-4 col-sm-12">
             <div className="card">
               <div
                 className="percent"
@@ -27,7 +27,7 @@ const Skills = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-3 col-sm-12">
+          <div className="col-md-4 col-sm-12">
             <div className="card">
               <div
                 className="percent"
@@ -51,7 +51,7 @@ const Skills = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-3 col-sm-12">
+          <div className="col-md-4 col-sm-12">
             <div className="card">
               <div
                 className="percent"
@@ -74,10 +74,8 @@ const Skills = () => {
                 </div>
               </div>
             </div>
-          </div>
         </div>
-        <div className="row">
-          <div className="col-md-3 col-sm-12">
+          <div className="col-md-4 col-sm-12">
             <div className="card">
               <div
                 className="percent"
@@ -97,7 +95,7 @@ const Skills = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-3 col-sm-12">
+          <div className="col-md-4 col-sm-12">
             <div className="card">
               <div
                 className="percent"
@@ -117,7 +115,7 @@ const Skills = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-3 col-sm-12">
+          <div className="col-md-4 col-sm-12">
             <div className="card">
               <div className="percent" style={{ "--clr": "peru", "--num": 75 }}>
                 <div className="dot"></div>
