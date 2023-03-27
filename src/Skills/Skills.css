@@ -17,7 +17,7 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  gap: 40px;
+  gap: 60px;
 }
 .skills-section .container .card {
   border-radius: 30px;

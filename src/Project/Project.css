@@ -5,9 +5,11 @@
   justify-content: center;
 }
 .project-section .row{
+  flex-wrap: wrap;
+  gap: 60px;
+  justify-content: center;
   margin-bottom: 0;
 }
-
 .project-section .heading {
   font-size: 40px;
 }
@@ -36,9 +38,8 @@
   background-color: rgb(17, 49, 79);
   opacity: 0.8;
   border: none;
-  margin-left: 5%;
-  margin-bottom: 10px;
-  height: 350px;
+  margin-bottom: 0;
+  height: 300px;
   width: 300px;
 }
 .project-section .card:hover{
@@ -47,5 +48,5 @@
 .project-section img {
   border-radius: 10px;
   width: 285px;
-  height: 50%;
+  height: 180px;
 }

@@ -1,5 +1,6 @@
 .Home {
   background-image: url("https://images.unsplash.com/photo-1518655048521-f130df041f66?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cG9ydGZvbGlvJTIwYmFja2dyb3VuZHxlbnwwfHwwfHw%3D&w=1000&q=80");
+  margin-top: 8%;
   min-height: 85vh;
   background-size: cover;
   opacity: 0.7;
@@ -13,9 +14,6 @@
   /* color: rgb(155, 72, 105); */
   font-weight: 600;
   background-color: rgb(28, 58, 88);;
-}
-.dummy {
-  height: 98px;
 }
 
 .Home .content {

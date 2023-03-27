@@ -4,7 +4,6 @@ import "./Home.css";
 const Home = () => {
   return (
     <div id="Home">
-      <div className="dummy"></div>
       <div className="Home">
         <div className="header-text">
           <h1>
@@ -19,7 +18,7 @@ const Home = () => {
             and craft to determine what to do with them.
           </p>
           <a href="#Contact">
-            <button className="btn btn-primary">Connect</button>
+            <button className="btn btn-primary mb-3">Connect</button>
           </a>
         </div>
       </div>
