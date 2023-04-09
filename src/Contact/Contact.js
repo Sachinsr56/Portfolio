@@ -1,5 +1,5 @@
 import React from "react";
-import Footer from '../Footer/Footer'
+import Footer from "../Footer/Footer";
 import "./Contact.css";
 
 const Contact = () => {
@@ -83,7 +83,7 @@ const Contact = () => {
             <div className="text-center text-md-left">
               <a
                 className="btn btn-primary w-100"
-                style={{"backgroundColor":"rgb(32, 49, 91)","border":"none"}}
+                style={{ backgroundColor: "rgb(32, 49, 91)", border: "none" }}
                 href="/"
               >
                 Send
@@ -103,15 +103,23 @@ const Contact = () => {
                 <p>sachinsmr56@gmail.com</p>
               </li>
               <li>
-              <a href="https://www.linkedin.com/in/sachinsr56/">
-                <i className="fab fa-linkedin-in fa-2x"></i>
-                <p>Sachinsr56</p>
+                <a
+                  href="https://www.linkedin.com/in/sachinsr56/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <i className="fab fa-linkedin-in fa-2x"></i>
+                  <p>Sachinsr56</p>
                 </a>
               </li>
               <li>
-              <a href="https://github.com/Sachinsr56">
-                <i className="fab fa-github fa-2x"></i>
-                <p>Sachinsr56</p>
+                <a
+                  href="https://github.com/Sachinsr56"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <i className="fab fa-github fa-2x"></i>
+                  <p>Sachinsr56</p>
                 </a>
               </li>
             </ul>

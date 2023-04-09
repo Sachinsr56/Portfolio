@@ -10,6 +10,8 @@ const Footer = () => {
               className="btn text-white btn-floating m-1"
               style={{ "backgroundColor": "#ac2bac" }}
               href="https://www.instagram.com/ksachin___/"
+              target='_blank'
+              rel="noreferrer"
               role="button"
             >
               <i className="fab fa-instagram "></i>
@@ -20,6 +22,8 @@ const Footer = () => {
               style={{ "backgroundColor": "#0082ca" }}
               href="https://www.linkedin.com/in/sachinsr56/"
               role="button"
+              target='_blank'
+              rel="noreferrer"
             >
               <i className="fab fa-linkedin-in "></i>
             </a>
@@ -29,6 +33,8 @@ const Footer = () => {
               style={{ "backgroundColor": "#333333" }}
               href="https://github.com/Sachinsr56"
               role="button"
+              target='_blank'
+              rel="noreferrer"
             >
               <i className="fab fa-github "></i>
             </a>
@@ -66,7 +72,7 @@ const Footer = () => {
           style={{ "backgroundColor": "rgba(0, 0, 0, 0.2)", color: "black" }}
         >
           © 2023 Copyright:
-          <a className="text-black" href="">
+          <a className="text-black" href="#!">
             sachinsmr56@gmail.com
           </a>
         </div>
