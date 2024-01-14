@@ -1,8 +1,66 @@
+@import "~bootstrap/dist/css/bootstrap.min.css";
+@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Coming+Soon&family=Kaushan+Script&family=Metal+Mania&family=Pacifico&family=Style+Script&display=swap");
 
-@import '~bootstrap/dist/css/bootstrap.min.css';
-@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Coming+Soon&family=Kaushan+Script&family=Metal+Mania&family=Pacifico&family=Style+Script&display=swap');
+a:hover {
+  cursor: pointer;
+  z-index: 999;
+}
 
-a:hover{
-    cursor: pointer;
-    z-index: 999;
+.App {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.image {
+  transition: filter 0.3s ease-in-out;
+}
+
+.image:hover {
+  filter: blur(5px);
+}
+
+.image-name {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  font-size: 20px;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.image-container:hover .image-name {
+  opacity: 1;
+}
+
+
+.card {
+  border: none;
+  min-height: 20vh;
+  padding: 1%;
+}
+
+.shadow-effect {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+@media (max-width: 1366px) {
+  .home {
+    padding-top: 5rem;
+  }
+}
+@media (min-width: 1920px) {
+  .home {
+    padding-top: 7rem;
+  }
+}
+@media (max-width: 768px) {
+  .home {
+    padding-top: 3rem;
+  }
 }

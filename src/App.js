@@ -1,17 +1,22 @@
 import "./App.css";
-import Home from "./Home/Home";
-import Skills from "./Skills/Skills";
-import Project from './Project/Project'
-import Contact from './Contact/Contact'
-import Navbar from "./Navbar/Navbar";
+import About from "./Components/About";
+import Contact from "./Components/Contact";
+import Experience from "./Components/Experience";
+import Footer from "./Components/Footer";
+import Header from "./Components/Header";
+import Home from "./Components/Home";
+import Project from "./Components/Project";
+
 function App() {
   return (
-  <div className="App">
-    <Navbar />
-    <Home />
-    <Skills />
-    <Project />
-    <Contact />
+    <div className="App">
+      <Header />
+      <Home />
+      <About />
+      <Project />
+      <Experience />
+      <Contact />
+      <Footer/>
     </div>
   );
 }
