@@ -15,6 +15,15 @@ const Contact = () => {
       >
         CONTACT
       </h2>
+      <hr
+        style={{
+          borderTop: "5px solid grey",
+          borderRadius: "20%",
+          width: "50px",
+          margin: "0 auto",
+          marginBottom: "100px",
+        }}
+      />
       <p
         className="ms-auto me-auto mb-4 mt-4"
         style={{
@@ -89,7 +98,8 @@ const Contact = () => {
           }}
           required
         ></textarea>
-        <a href="/"
+        <a
+          href="/"
           className="btn btn-secondary mt-4 p-2"
           style={{
             fontWeight: "600",

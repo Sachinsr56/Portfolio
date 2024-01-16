@@ -20,7 +20,7 @@ a:hover {
 }
 
 .image:hover {
-  filter: blur(5px);
+  filter: blur(20px);
 }
 
 .image-name {
@@ -28,9 +28,9 @@ a:hover {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: black;
-  font-size: 20px;
+  color: grey;
   opacity: 0;
+  z-index: 100;
   transition: opacity 0.3s ease-in-out;
 }
 

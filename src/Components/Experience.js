@@ -5,7 +5,15 @@ const Experience = () => {
     <div id="experience" className="shadow-effect p-5">
       <h2 className="mb-4" style={{ textAlign: "center" }}>
         Experience
-      </h2>
+      </h2><hr
+        style={{
+          borderTop: "5px solid grey",
+          borderRadius: "20%",
+          width: "50px",
+          margin: "0 auto",
+          marginBottom: "100px",
+        }}
+      />
       <div className="row" style={{ justifyContent: "center" }}>
         <div className="col-md-3">
           <div
