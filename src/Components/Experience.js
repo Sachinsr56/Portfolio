@@ -15,7 +15,7 @@ const Experience = () => {
         }}
       />
       <div className="row" style={{ justifyContent: "center" }}>
-        <div className="col-md-3">
+        <div className="col-md-3" >
           <div
             className="card p-4"
             style={{
